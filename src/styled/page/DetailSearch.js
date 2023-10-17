@@ -55,6 +55,7 @@ border-top: 1px solid #BB99CD;
 border-bottom: 1px solid #BB99CD;
 padding-top: 10px;
 padding-bottom: 10px;
+background-color: #FAFAFA; 
 `
 
 export const InputDiv = styled.div`
