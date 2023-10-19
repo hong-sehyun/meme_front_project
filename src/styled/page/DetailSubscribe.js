@@ -7,7 +7,8 @@ color: #BB99CD;
 font-size: 24px;
 font-weight: 700;
 text-align: center;
-margin-bottom: 70px
+margin-bottom: 70px;
+margin-top: 70px;
 `
 export const SubscribeDiv = styled.div`
 display: grid;
@@ -21,7 +22,9 @@ grid-gap: 20px;
 export const SubscribeBox = styled.div`
 border-radius: 10px;
 border: 1px solid #643579;
-padding: 20px
+padding: 20px;
+
+background-color: #FAFAFA;
 `
 
 export const VersionDiv = styled.div`

@@ -1,7 +1,7 @@
 /** 구독 페이지 */
 import React from 'react';
 import { DetailSubscribe_Box } from './DetailSubscribe_Box'
-import { SubscribeDiv, SubscribeTitle } from '../../styled/page'
+import { StyledSection, StyledTitle, NavBoxTest, SubscribeDiv, SubscribeTitle } from '../../styled'
 export const DetailSubscribe = () => {
 
   const version1 = "demo"
@@ -29,13 +29,15 @@ export const DetailSubscribe = () => {
 
 
   return (
-    <>
+    <StyledSection height="100vh">
+      <NavBoxTest></NavBoxTest>
+      <StyledTitle font="RedRose">Price</StyledTitle>
       <SubscribeTitle>지금 정치, 문화, 19금 등 모든 밈을 만나보세요</SubscribeTitle>
       <SubscribeDiv>
         <DetailSubscribe_Box version={version1} price={price1} month={month1} discount={discount1} list={list1} bt={bt1} />
         <DetailSubscribe_Box version={version2} price={price2} month={month2} discount={discount2} list={list2} bt={bt2} />
         <DetailSubscribe_Box version={version3} price={price3} month={month3} discount={discount3} list={list3} bt={bt3} />
       </SubscribeDiv>
-    </>
+    </StyledSection>
   );
 }

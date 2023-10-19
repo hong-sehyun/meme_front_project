@@ -61,4 +61,6 @@ export const StyledTitle = styled.div`
   justify-content: center;
   background-color: white;
   color: #643579;
+  border-top: 1px solid #BB99CD;
+  border-bottom: 1px solid #BB99CD;
 `
