@@ -56,10 +56,14 @@ border-bottom: 1px solid #BB99CD;
 padding-top: 10px;
 padding-bottom: 10px;
 background-color: #FAFAFA; 
+padding-right: 70px;
+padding-left: 70px
 `
 
 export const InputDiv = styled.div`
 display:flex;
 flex-direction:row;
-padding-top: 5px
+padding-top: 5px;
+gap: 10px;
+padding-top: 20px;
 `
