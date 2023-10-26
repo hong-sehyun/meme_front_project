@@ -5,7 +5,7 @@ import {useStore} from './store/useStore'
 import GlobalStyle from './styled/GlobalStyle'
 import {ThemeProvider} from 'styled-components'
 import theme from './styled/theme'
-
+import './App.css';
 function App() {
   // 리덕스 스토어 생성 함수
   const store = useStore()

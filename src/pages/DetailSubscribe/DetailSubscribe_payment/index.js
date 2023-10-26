@@ -42,10 +42,10 @@ export const DetailSubscribe_payment = () => {
     }
   };
 
-  return (
-    <div>
-      <button onClick={handleSubscription}>구독하기</button>
-      <p>구독 상태: {subscriptionStatus}</p>
-    </div>
-  );
+  // return (
+  //   <div>
+  //     <button onClick={handleSubscription}>구독하기</button>
+  //     <p>구독 상태: {subscriptionStatus}</p>
+  //   </div>
+  // );
 }
