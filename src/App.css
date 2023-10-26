@@ -1,61 +1,55 @@
 @font-face {
   font-family: 'poppins';
-  src: url('./styled/fonts/Poppins-Black.ttf') format('ttf');
+  src: url('./styled/fonts/Poppins-Black.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'PressStart2P';
-  src: url('./styled/fonts/PressStart2P-Regular.ttf') format('ttf');
+  src: url('./styled/fonts/PressStart2P-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('./styled/fonts/Inter-VariableFont_slnt,wght.ttf') format('ttf');
+  src: url('./styled/fonts/Inter-VariableFont_slnt,wght.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
-/* font-family: 'Red Rose', serif; */
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'RedRose';
+  src: url('./styled/fonts/RedRose-Bold.woff') format('woff');
+  font-weight: Bold;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'RedRose';
+  src: url('./styled/fonts/RedRose-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'RedRose';
+  src: url('./styled/fonts/RedRose-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'RedRose';
+  src: url('./styled/fonts/RedRose-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'RedRose';
+  src: url('./styled/fonts/RedRose-SemiBold.woff') format('woff');
+  font-weight: SemiBold;
+  font-style: normal;
 }
