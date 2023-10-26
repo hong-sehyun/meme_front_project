@@ -23,7 +23,7 @@ export const SubscribeBox = styled.div`
 border-radius: 10px;
 border: 1px solid #643579;
 padding: 20px;
-
+font-family: 'RedRose';
 background-color: #FAFAFA;
 `
 
@@ -49,7 +49,6 @@ margin-top: 20px;
 `
 
 export const PriceDiv = styled.div`
-font-family: 'Red Rose', serif;
 display : flex;
 flex-direction: row;
 margin-bottom: 10px;

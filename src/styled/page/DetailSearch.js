@@ -51,13 +51,17 @@ export const CustomArrow = styled.div`
 
 // 전체 검색창
 export const InputContainer = styled.div`
+font-family: 'RedRose';
+color: #848484;
 border-top: 1px solid #BB99CD;
 border-bottom: 1px solid #BB99CD;
 padding-top: 10px;
 padding-bottom: 10px;
 background-color: #FAFAFA; 
-padding-right: 70px;
-padding-left: 70px
+width: 100%;
+display: flex;
+flex-direction: column; 
+align-items: center; 
 `
 
 export const InputDiv = styled.div`
